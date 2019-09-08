@@ -65,12 +65,19 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	width: 800px;
+	width: 880px;
 	margin: auto;
 }
 
 .block {
 	position: relative;
+	width: 100%;
+}
+
+header {
+	position: fixed;
+	z-index: 1;
+	background-color: #3CCEDA;
 	width: 100%;
 }
 /* navbar */
@@ -79,7 +86,8 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	height: 60px;
 	padding: 40px 0px px 0px;
-	overflow: hidden;
+
+
 }
 
 .nav-button {
@@ -88,11 +96,57 @@ h1, h2, h3, h4, h5 {
 	position: relative;
 	border: none;
 	outline: none;
-	background-color: white;
+	
+	
 
 }
 
 .nav-button:hover {
-	opacity: .4;
+	opacity: .6;
 }
+
+.logo {
+	float: right;
+	padding: 12px 0px 0px 0px;
+}
+
+/* call to action */
+.cta {
+	position: relative;
+
+}
+
+.cta .cta_text {
+	display: inline-block;
+	vertical-align: top;
+	margin: 100px 0px;
+	padding: 0px 60px;
+	font-size: 50px;
+	text-align: center;
+	width: 55%;
+}
+
+.cta .cta_text button {
+	font-weight: 300;
+	background-color: white;
+	vertical-align: top;
+	margin-top: 2px;
+	padding: 10px 50px;
+	font-size: 18px;
+	border: 1px solid black;
+	
+}
+
+.cta .cta_text button:hover {
+	background: black;
+	color: white;
+}
+
+.cta img {
+	/* display: inline-block */
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+
 
