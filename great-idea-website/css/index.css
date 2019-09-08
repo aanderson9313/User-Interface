@@ -64,16 +64,35 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-body {
-	width: 880px;
-
-}
-header {
+.container {
+	width: 800px;
 	margin: auto;
-	padding: 2px;
 }
 
-div .navbar {
+.block {
+	position: relative;
+	width: 100%;
+}
+/* navbar */
+#navbar {
 	display: inline-block;
+	text-align: center;
+	height: 60px;
+	padding: 40px 0px px 0px;
+	overflow: hidden;
+}
+
+.nav-button {
+	font-size: 14px;
+	margin: 25px 16px;
+	position: relative;
+	border: none;
+	outline: none;
+	background-color: white;
 
 }
+
+.nav-button:hover {
+	opacity: .4;
+}
+
