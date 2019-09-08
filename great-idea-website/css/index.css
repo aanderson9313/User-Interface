@@ -64,9 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
 .container {
 	width: 885px;
 	margin: 0 auto;
+	font-family: 'Livvic', sans-serif;
 	
 }
 
@@ -76,11 +78,14 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	position: fixed;
+	/* set the header to a fixed position */
+	position: fixed; 
+	top: 0;
 	z-index: 1;
 	background-color: #3CCEDA;
 	width: 46.4%;
 	opacity: .9;
+
 	
 }
 /* navbar */
@@ -113,6 +118,7 @@ header {
 /* call to action */
 .cta {
 	position: relative;
+	margin-top: 30px;
 
 }
 
@@ -170,8 +176,15 @@ header {
 	margin: 1% 8px 2% 8px;
 	padding: 25px 0px;
 	line-height: 20px;
-
-
 }
+/* copyright and contact info */
+footer {
+	padding: 25px 0px 0px 0px;
+}
+
+#copyright {
+	text-align: center;
+}
+
 
 
