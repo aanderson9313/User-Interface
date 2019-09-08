@@ -65,8 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	width: 880px;
-	margin: auto;
+	width: 885px;
+	margin: 0 auto;
+	
 }
 
 .block {
@@ -78,26 +79,25 @@ header {
 	position: fixed;
 	z-index: 1;
 	background-color: #3CCEDA;
-	width: 100%;
+	width: 46.4%;
+	opacity: .9;
+	
 }
 /* navbar */
 #navbar {
 	display: inline-block;
 	text-align: center;
-	height: 60px;
-	padding: 40px 0px px 0px;
-
-
+	height: 40px;
+	padding: 10px 10px px 20px;
 }
 
 .nav-button {
 	font-size: 14px;
-	margin: 25px 16px;
+	margin: 15px 16px;
+	padding: 0px 15px 0px 15px;
 	position: relative;
 	border: none;
 	outline: none;
-	
-	
 
 }
 
@@ -107,7 +107,7 @@ header {
 
 .logo {
 	float: right;
-	padding: 12px 0px 0px 0px;
+	padding: 5px 0px 0px px;
 }
 
 /* call to action */
@@ -127,13 +127,14 @@ header {
 }
 
 .cta .cta_text button {
-	font-weight: 300;
+	font-weight: 200;
 	background-color: white;
 	vertical-align: top;
 	margin-top: 2px;
 	padding: 10px 50px;
-	font-size: 18px;
+	font-size: 20px;
 	border: 1px solid black;
+	
 	
 }
 
@@ -145,8 +146,32 @@ header {
 .cta img {
 	/* display: inline-block */
 	position: absolute;
-	top: 20px;
-	right: 0px;
+	top: 50px;
+	right: 0px;	
+}
+
+/* paragraphs */
+.content {
+	position: relative;
+}
+
+.content .content-top{
+	display: inline-block;
+	width: 420px;
+	line-height: 15px;
+	margin: 1% 1% 2% 1%;
+	padding: 25px 0px;
+	line-height: 20px;
+}
+
+.content2 .content-bottom{
+	display: inline-block;
+	width: 276px;
+	margin: 1% 8px 2% 8px;
+	padding: 25px 0px;
+	line-height: 20px;
+
+
 }
 
 
