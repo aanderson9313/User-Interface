@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 885px;
+	margin: 0 auto;
+	font-family: 'Livvic', sans-serif;
+	
+}
+
+.block {
+	position: relative;
+	width: 100%;
+}
+
+header {
+	/* set the header to a fixed position */
+	position: fixed; 
+	top: 0;
+	z-index: 1;
+	background-color: #3CCEDA;
+	width: 46.4%;
+	opacity: .9;
+
+	
+}
+/* navbar */
+#navbar {
+	display: inline-block;
+	text-align: center;
+	height: 40px;
+	padding: 10px 10px px 20px;
+}
+
+.nav-button {
+	font-size: 14px;
+	margin: 15px 16px;
+	padding: 0px 15px 0px 15px;
+	position: relative;
+	border: none;
+	outline: none;
+
+}
+
+.nav-button:hover {
+	opacity: .6;
+}
+
+.logo {
+	float: right;
+	padding: 5px 0px 0px px;
+}
+
+/* call to action */
+.cta {
+	position: relative;
+	margin-top: 30px;
+
+}
+
+.cta .cta_text {
+	display: inline-block;
+	vertical-align: top;
+	margin: 100px 0px;
+	padding: 0px 60px;
+	font-size: 50px;
+	text-align: center;
+	width: 55%;
+}
+
+.cta .cta_text button {
+	font-weight: 200;
+	background-color: white;
+	vertical-align: top;
+	margin-top: 2px;
+	padding: 10px 50px;
+	font-size: 20px;
+	border: 1px solid black;
+	
+	
+}
+
+.cta .cta_text button:hover {
+	background: black;
+	color: white;
+}
+
+.cta img {
+	/* display: inline-block */
+	position: absolute;
+	top: 50px;
+	right: 0px;	
+}
+
+/* paragraphs */
+.content {
+	position: relative;
+}
+
+.content .content-top{
+	display: inline-block;
+	width: 420px;
+	line-height: 15px;
+	margin: 1% 1% 2% 1%;
+	padding: 25px 0px;
+	line-height: 20px;
+}
+
+.content2 .content-bottom{
+	display: inline-block;
+	width: 276px;
+	margin: 1% 8px 2% 8px;
+	padding: 25px 0px;
+	line-height: 20px;
+}
+/* copyright and contact info */
+footer {
+	padding: 25px 0px 0px 0px;
+}
+
+#copyright {
+	text-align: center;
+}
+
+
+
